@@ -15,7 +15,7 @@ class TextVerificationPipeline:
         print("[*] Initializing Hybrid Text Pipeline...")
         
         # 1. Load Tier 1: Semantic Cache Model (Will auto-detect and use your local GPU!)
-        print("[*] Loading Local Embedding Model to GPU...")
+        print("[*] Loading Local Embedding Model to CPU...")
         # device='cuda' forces it to use your newly integrated GPU for lightning-fast embeddings
         self.embedder = SentenceTransformer('all-MiniLM-L6-v2', device='cpu',token=hf_token)
         self.embedding_dim = self.embedder.get_embedding_dimension()
