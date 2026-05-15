@@ -3,3 +3,6 @@ dotenv
 ddgs
 sentence-transformers
 huggingface_hub
+fastapi
+uvicorn
+pydantic
