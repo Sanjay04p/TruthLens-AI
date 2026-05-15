@@ -1,0 +1,5 @@
+faiss-cpu
+dotenv
+ddgs
+sentence-transformers
+huggingface_hub
