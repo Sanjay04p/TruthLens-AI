@@ -2,4 +2,11 @@ faiss-cpu
 dotenv
 ddgs
 sentence-transformers
+<<<<<<< HEAD
 huggingface_hub
+=======
+huggingface_hub
+fastapi
+uvicorn
+pydantic
+>>>>>>> 8b3dfb05e762003309b91bbf9facc67c77c1310b
