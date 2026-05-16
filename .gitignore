@@ -1,2 +1,16 @@
 .venv/
 .vscode/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Frontend local environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Frontend TypeScript/Vite cache files
+frontend/*.tsbuildinfo
